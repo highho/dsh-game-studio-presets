@@ -1,0 +1,8 @@
+{
+  "name": "@local/dsh-game-studio-presets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude Code Game Studios 提炼而成的情景化 agent 预设族",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

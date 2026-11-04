@@ -1,0 +1,9 @@
+# 补丁必须原样保留换行：YAML 块标量的缩进对行尾敏感
+cordis.patch.yml  -text
+
+# 其余文本统一 LF，避免跨平台差异
+*.md      text eol=lf
+*.mjs     text eol=lf
+*.json    text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
