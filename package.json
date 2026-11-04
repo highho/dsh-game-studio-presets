@@ -1,8 +1,27 @@
 {
-  "name": "@local/dsh-game-studio-presets",
+  "name": "dsh-game-studio-presets",
   "version": "1.0.0",
-  "private": true,
+  "description": "11 套游戏开发 agent 预设，覆盖从概念到上线的全流程；由 Claude Code Game Studios 的 48 个子智能体按工作流阶段重切而来，附带 37 个技能。",
   "type": "module",
-  "description": "Claude Code Game Studios 提炼而成的情景化 agent 预设族",
-  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-preset",
+    "game-development",
+    "gamedev"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highho/dsh-game-studio-presets.git"
+  },
+  "homepage": "https://github.com/highho/dsh-game-studio-presets#readme",
+  "scripts": {
+    "setup": "node install.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
 }
